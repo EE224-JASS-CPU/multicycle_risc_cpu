@@ -1,0 +1,1587 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/jass2.0/simulation/modelsim
+Ealu
+Z1 w1733168405
+Z2 DPx4 work 5 gates 0 22 NcY4A7TbR^WLRT`2c:]N[1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/intelFPGA_lite/jass2.0/alu.vhd
+Z8 FC:/intelFPGA_lite/jass2.0/alu.vhd
+l0
+L8
+V^H`jgKJBD^:To3L[09kG83
+!s100 7PV1kXE@37_?bh7@K8zZ^2
+Z9 OV;C;10.5b;63
+31
+Z10 !s110 1733310157
+!i10b 1
+Z11 !s108 1733310157.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/alu.vhd|
+Z13 !s107 C:/intelFPGA_lite/jass2.0/alu.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Astruct
+R2
+R3
+R4
+R5
+R6
+Z16 DEx4 work 3 alu 0 22 ^H`jgKJBD^:To3L[09kG83
+l70
+L15
+VV]FN6[:ifR;@7>[LhUI?H2
+!s100 :K3^LL^[;e;>_0dLaTn3>2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eand_2
+Z17 w1733141638
+R5
+R6
+R0
+Z18 8C:/intelFPGA_lite/jass2.0/Gates.vhdl
+Z19 FC:/intelFPGA_lite/jass2.0/Gates.vhdl
+l0
+L57
+VW2QdRhzH^gh`1Z4bifmBf3
+!s100 <1nD4fLK5FZ?LMSb4GDe>3
+R9
+31
+Z20 !s110 1733310155
+!i10b 1
+Z21 !s108 1733310155.000000
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/Gates.vhdl|
+Z23 !s107 C:/intelFPGA_lite/jass2.0/Gates.vhdl|
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 5 and_2 0 22 W2QdRhzH^gh`1Z4bifmBf3
+l62
+L61
+VnDT8d]LGAGAW:`<`mSSSg3
+!s100 HhM:H^IAkB>a2X9?`<@_k0
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Ebitwise_and
+Z24 w1733141637
+R2
+R5
+R6
+R0
+Z25 8C:/intelFPGA_lite/jass2.0/bitwise_AND.vhd
+Z26 FC:/intelFPGA_lite/jass2.0/bitwise_AND.vhd
+l0
+L6
+VHU00G:F<U6ZW8ODXPdMF53
+!s100 J?N=>b5?^:7Fc`Y_jYEXV1
+R9
+31
+Z27 !s110 1733310156
+!i10b 1
+Z28 !s108 1733310156.000000
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/bitwise_AND.vhd|
+Z30 !s107 C:/intelFPGA_lite/jass2.0/bitwise_AND.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 11 bitwise_and 0 22 HU00G:F<U6ZW8ODXPdMF53
+l13
+L12
+Vgio_X6fFChTfnlKTAD94K0
+!s100 zQ28iQU@lZ`<A:^D^EYze2
+R9
+31
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R14
+R15
+Ebitwise_imp
+R24
+R2
+R5
+R6
+R0
+Z31 8C:/intelFPGA_lite/jass2.0/bitwise_IMP.vhd
+Z32 FC:/intelFPGA_lite/jass2.0/bitwise_IMP.vhd
+l0
+L6
+VgAUAZHaUEX07oo9AEQc]22
+!s100 gK7TWk2kbeSJTd0XG4_;73
+R9
+31
+R27
+!i10b 1
+R28
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/bitwise_IMP.vhd|
+Z34 !s107 C:/intelFPGA_lite/jass2.0/bitwise_IMP.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 11 bitwise_imp 0 22 gAUAZHaUEX07oo9AEQc]22
+l14
+L12
+VI;HFkdFILla;F3Ydj4Q572
+!s100 <_A101^aFFeGMO7[61lZf2
+R9
+31
+R27
+!i10b 1
+R28
+R33
+R34
+!i113 1
+R14
+R15
+Ebitwise_or
+R24
+R2
+R5
+R6
+R0
+Z35 8C:/intelFPGA_lite/jass2.0/bitwise_OR.vhd
+Z36 FC:/intelFPGA_lite/jass2.0/bitwise_OR.vhd
+l0
+L6
+VRV_j?`8nDBf`o7=j2`4Vc0
+!s100 EngeP[aP4i1oXleI=A9Yc1
+R9
+31
+R27
+!i10b 1
+R28
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/bitwise_OR.vhd|
+Z38 !s107 C:/intelFPGA_lite/jass2.0/bitwise_OR.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 10 bitwise_or 0 22 RV_j?`8nDBf`o7=j2`4Vc0
+l13
+L12
+VRW0>oRf5G?Je_EK2NTn9R1
+!s100 2OR<_UjJh_Tf4?ld_d2mk0
+R9
+31
+R27
+!i10b 1
+R28
+R37
+R38
+!i113 1
+R14
+R15
+Edemux2
+R24
+R2
+R3
+R4
+R5
+R6
+R0
+Z39 8C:/intelFPGA_lite/jass2.0/demux2.vhd
+Z40 FC:/intelFPGA_lite/jass2.0/demux2.vhd
+l0
+L8
+Vai]LH8J43B@VILF>lUeF_0
+!s100 FXjdOkEjFiL;N5]L]C?h72
+R9
+31
+R27
+!i10b 1
+R28
+Z41 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/demux2.vhd|
+Z42 !s107 C:/intelFPGA_lite/jass2.0/demux2.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R3
+R4
+R5
+R6
+DEx4 work 6 demux2 0 22 ai]LH8J43B@VILF>lUeF_0
+l19
+L17
+Vig^B7bH<Z20j=aBKQTJLa0
+!s100 1WTLnYK_LYoa;l7Z[jz9?2
+R9
+31
+R27
+!i10b 1
+R28
+R41
+R42
+!i113 1
+R14
+R15
+Edemux4
+R17
+R3
+R4
+R5
+R6
+R0
+Z43 8C:/intelFPGA_lite/jass2.0/demux4.vhd
+Z44 FC:/intelFPGA_lite/jass2.0/demux4.vhd
+l0
+L7
+VYYNbCgZ>U92z:`z8O`oQH1
+!s100 NOH]7Wf^Th86UEB1>_0TT1
+R9
+31
+R20
+!i10b 1
+R21
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/demux4.vhd|
+Z46 !s107 C:/intelFPGA_lite/jass2.0/demux4.vhd|
+!i113 1
+R14
+R15
+Astruct
+R3
+R4
+R5
+R6
+DEx4 work 6 demux4 0 22 YYNbCgZ>U92z:`z8O`oQH1
+l27
+L15
+ViBCK>4H@NkCPb9[XAJ>JD3
+!s100 gA0bC6OU@g1aWCMnCOAAE2
+R9
+31
+R20
+!i10b 1
+R21
+R45
+R46
+!i113 1
+R14
+R15
+Edemux8
+Z47 w1733221549
+R3
+R4
+R5
+R6
+R0
+Z48 8C:/intelFPGA_lite/jass2.0/demux8.vhd
+Z49 FC:/intelFPGA_lite/jass2.0/demux8.vhd
+l0
+L7
+VAJ05bgaeRnfFWKT8ec=WJ0
+!s100 ]gzLhm40CC>`gVc3JCZS23
+R9
+31
+R20
+!i10b 1
+R21
+Z50 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/demux8.vhd|
+Z51 !s107 C:/intelFPGA_lite/jass2.0/demux8.vhd|
+!i113 1
+R14
+R15
+Astruct
+R3
+R4
+R5
+R6
+DEx4 work 6 demux8 0 22 AJ05bgaeRnfFWKT8ec=WJ0
+l36
+L16
+VacRZnFLH?dP[@gc95afE30
+!s100 d[21;VP[5FCdZV[TohlP_3
+R9
+31
+R20
+!i10b 1
+R21
+R50
+R51
+!i113 1
+R14
+R15
+Edemux8bit16
+Z52 w1733172411
+R3
+R4
+R5
+R6
+R0
+Z53 8C:/intelFPGA_lite/jass2.0/16bit1to8demux.vhd
+Z54 FC:/intelFPGA_lite/jass2.0/16bit1to8demux.vhd
+l0
+L7
+VK]3lOKNS=zQj[nnQG0S5V3
+!s100 Yi@PXJ]2COWa]WmfiGh8[2
+R9
+31
+R20
+!i10b 1
+R21
+Z55 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/16bit1to8demux.vhd|
+Z56 !s107 C:/intelFPGA_lite/jass2.0/16bit1to8demux.vhd|
+!i113 1
+R14
+R15
+Astruct
+R3
+R4
+R5
+R6
+DEx4 work 11 demux8bit16 0 22 K]3lOKNS=zQj[nnQG0S5V3
+l23
+L14
+VO21TH;RJI[XMkbd4=TzJ>1
+!s100 XL=4GARZJ_42n:`^6b5m]0
+R9
+31
+R20
+!i10b 1
+R21
+R55
+R56
+!i113 1
+R14
+R15
+Edff_reset
+Z57 w1733249233
+R5
+R6
+R0
+Z58 8C:/intelFPGA_lite/jass2.0/Flipflop.vhd
+Z59 FC:/intelFPGA_lite/jass2.0/Flipflop.vhd
+l0
+L31
+VHG4kh90_@?Rh;W12^QFBE2
+!s100 @SSIPfPoK49Hoaai^2JSF0
+R9
+31
+R20
+!i10b 1
+R21
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/Flipflop.vhd|
+Z61 !s107 C:/intelFPGA_lite/jass2.0/Flipflop.vhd|
+!i113 1
+R14
+R15
+Abehav
+R5
+R6
+DEx4 work 9 dff_reset 0 22 HG4kh90_@?Rh;W12^QFBE2
+l34
+L33
+V1U2c_Z_8ITJg4jWh4L5Am3
+!s100 [kQ5f[3Sm6`[m@<W[NCSo0
+R9
+31
+R20
+!i10b 1
+R21
+R60
+R61
+!i113 1
+R14
+R15
+Edff_set
+R57
+R5
+R6
+R0
+R58
+R59
+l0
+L14
+V:ZQQmCE>L70JWdhjJDObg1
+!s100 Yolf<H`FSD1dZO?iKMz9G2
+R9
+31
+R20
+!i10b 1
+R21
+R60
+R61
+!i113 1
+R14
+R15
+Abehav
+R5
+R6
+DEx4 work 7 dff_set 0 22 :ZQQmCE>L70JWdhjJDObg1
+l17
+L16
+VLVlYOazLcD=fHi_hRn5JL3
+!s100 gBGU3GD5Cz<1^ICL3cOOE1
+R9
+31
+R20
+!i10b 1
+R21
+R60
+R61
+!i113 1
+R14
+R15
+Pflipflops
+R5
+R6
+R57
+R0
+R58
+R59
+l0
+L3
+V3mU6J?lOT_dO>1Qm>1ze<2
+!s100 4YOY7@6n[T@QPdoRcDcDn1
+R9
+31
+R20
+!i10b 1
+R21
+R60
+R61
+!i113 1
+R14
+R15
+Efsm
+Z62 w1733310117
+Z63 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R5
+R6
+R0
+Z64 8C:/intelFPGA_lite/jass2.0/fsm.vhd
+Z65 FC:/intelFPGA_lite/jass2.0/fsm.vhd
+l0
+L7
+Vgck47A4M3KlFaDLj`CF@B2
+!s100 [k:UONHG6Y::RiWKc^0B]2
+R9
+31
+R10
+!i10b 1
+R11
+Z66 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/fsm.vhd|
+Z67 !s107 C:/intelFPGA_lite/jass2.0/fsm.vhd|
+!i113 1
+R14
+R15
+Adesign
+Z68 DEx4 work 6 memory 0 22 zU[3beKGb8VED2B9NW4WG1
+Z69 DEx4 work 11 shift_eight 0 22 4;Qc=`5WiJofSgAI15ASd0
+Z70 DEx4 work 9 shift_one 0 22 Af[k=iXK]U3AjNgZl21ZU2
+Z71 DEx4 work 13 sign_ext_nine 0 22 BBhDL0UM?T^R5kD38EAS:1
+Z72 DEx4 work 12 sign_ext_six 0 22 j9zBzNRzY<Eg_jGNmbTPT1
+Z73 DEx4 work 13 register16bit 0 22 0C4TIFBT4VfOjdaOH>dRL2
+Z74 DEx4 work 13 register_file 0 22 T9Ahb]A1PBM0lli1C2:n92
+R2
+R3
+R4
+R16
+R63
+R5
+R6
+Z75 DEx4 work 3 fsm 0 22 gck47A4M3KlFaDLj`CF@B2
+l69
+L34
+Vog?oODLQ;Ab]>fU?T1`al2
+!s100 Q_LTbPL8ZGF;ehLVg_MBe3
+R9
+31
+R10
+!i10b 1
+R11
+R66
+R67
+!i113 1
+R14
+R15
+Efull_adder
+Z76 w1733164195
+R2
+R5
+R6
+R0
+Z77 8C:/intelFPGA_lite/jass2.0/full_adder.vhd
+Z78 FC:/intelFPGA_lite/jass2.0/full_adder.vhd
+l0
+L6
+VCnRY2Z^B<n7>7:0OeJIJA3
+!s100 Z;K`_MCM=Z:Po[VY`a?ck1
+R9
+31
+R27
+!i10b 1
+R28
+Z79 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/full_adder.vhd|
+Z80 !s107 C:/intelFPGA_lite/jass2.0/full_adder.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 10 full_adder 0 22 CnRY2Z^B<n7>7:0OeJIJA3
+l14
+L12
+V[iJhdd_EIAOSF^bEEOgVP3
+!s100 HnzSJFe:<7@ICT6I1QDm;3
+R9
+31
+R27
+!i10b 1
+R28
+R79
+R80
+!i113 1
+R14
+R15
+Pgates
+R5
+R6
+R17
+R0
+R18
+R19
+l0
+L7
+VNcY4A7TbR^WLRT`2c:]N[1
+!s100 Dc>f1MeC:9iI_HnNzJ;KT1
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Ehalf_adder
+R17
+R5
+R6
+R0
+R18
+R19
+l0
+L124
+VIZiX8mi96cJ??CnPO^U<C3
+!s100 U;nQkfQTnI7V?fejYIM<g2
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 10 half_adder 0 22 IZiX8mi96cJ??CnPO^U<C3
+l129
+L128
+VCD;QIVbkQ<kd@U[I6UILl1
+!s100 E9g6H`e<YSE@nSQ7XJJ0D0
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Einverter
+R17
+R5
+R6
+R0
+R18
+R19
+l0
+L45
+V^STYmNzH_F58ZVT>FF?cU2
+!s100 S3joTbdXW90XOjU4i1V^60
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 8 inverter 0 22 ^STYmNzH_F58ZVT>FF?cU2
+l50
+L49
+VY38KWB:XEkc0^3YzW57dj2
+!s100 YS6CiXJRJ@EE5??nNB03h1
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Ememory
+Z81 w1733308720
+R63
+R5
+R6
+R0
+Z82 8C:/intelFPGA_lite/jass2.0/memory.vhd
+Z83 FC:/intelFPGA_lite/jass2.0/memory.vhd
+l0
+L6
+VzU[3beKGb8VED2B9NW4WG1
+!s100 dm@kXo1QFe:Fo0MiSDITF2
+R9
+31
+R20
+!i10b 1
+R21
+Z84 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/memory.vhd|
+Z85 !s107 C:/intelFPGA_lite/jass2.0/memory.vhd|
+!i113 1
+R14
+R15
+Abehav
+R63
+R5
+R6
+R68
+l18
+L12
+Vg6]cmfH=cX1L5nn@E`Ncm3
+!s100 X?@VeaPF4i6T0SKJ@jCH^1
+R9
+31
+R20
+!i10b 1
+R21
+R84
+R85
+!i113 1
+R14
+R15
+Emultiplier
+R17
+R2
+R5
+R6
+R0
+Z86 8C:/intelFPGA_lite/jass2.0/multiplier.vhd
+Z87 FC:/intelFPGA_lite/jass2.0/multiplier.vhd
+l0
+L6
+V=n5Hn]LJE_@]]g2oR@Im^3
+!s100 M6_2NY9R2oFMJEdI_JSSM1
+R9
+31
+R27
+!i10b 1
+R28
+Z88 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/multiplier.vhd|
+Z89 !s107 C:/intelFPGA_lite/jass2.0/multiplier.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 10 multiplier 0 22 =n5Hn]LJE_@]]g2oR@Im^3
+l39
+L12
+Vhz1M]0LLR<^VRGAFC`hAa0
+!s100 C?cdmen2_54:nj>Tc^P=R3
+R9
+31
+R27
+!i10b 1
+R28
+R88
+R89
+!i113 1
+R14
+R15
+Emux2
+R24
+R2
+R5
+R6
+R0
+Z90 8C:/intelFPGA_lite/jass2.0/2to1mux.vhd
+Z91 FC:/intelFPGA_lite/jass2.0/2to1mux.vhd
+l0
+L6
+V1Db>XP@^j1fh7ZYAeC3j21
+!s100 fTBYL^@Y_?;;_SGiz`VWz1
+R9
+31
+R10
+!i10b 1
+R11
+Z92 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/2to1mux.vhd|
+Z93 !s107 C:/intelFPGA_lite/jass2.0/2to1mux.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 4 mux2 0 22 1Db>XP@^j1fh7ZYAeC3j21
+l13
+L11
+VJZDPbTV`TTb]^<7?lTHFk2
+!s100 @ki65@4jaOM2F:[6=^:hn0
+R9
+31
+R10
+!i10b 1
+R11
+R92
+R93
+!i113 1
+R14
+R15
+Emux2bit16
+Z94 w1733248757
+R3
+R4
+R5
+R6
+R0
+Z95 8C:/intelFPGA_lite/jass2.0/16bit2x1mux.vhd
+Z96 FC:/intelFPGA_lite/jass2.0/16bit2x1mux.vhd
+l0
+L7
+Ved[2:O@=c_n^UQj1S5aW:0
+!s100 k2cEWG4`HzFggG9Ed;GGM0
+R9
+31
+R27
+!i10b 1
+R28
+Z97 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/16bit2x1mux.vhd|
+Z98 !s107 C:/intelFPGA_lite/jass2.0/16bit2x1mux.vhd|
+!i113 1
+R14
+R15
+Astruct
+R3
+R4
+R5
+R6
+DEx4 work 9 mux2bit16 0 22 ed[2:O@=c_n^UQj1S5aW:0
+l21
+L14
+V_TFoz63Yzn5Z6=N2SiEKV0
+!s100 cMOGj>`0IkN_M^m@V^g2i1
+R9
+31
+R27
+!i10b 1
+R28
+R97
+R98
+!i113 1
+R14
+R15
+Emux4
+R24
+R5
+R6
+R0
+Z99 8C:/intelFPGA_lite/jass2.0/4to1mux.vhd
+Z100 FC:/intelFPGA_lite/jass2.0/4to1mux.vhd
+l0
+L6
+VkzBY0EaXDz1]HFClDFTdU2
+!s100 01zoI;In5[zX6k[aLD2g`1
+R9
+31
+R27
+!i10b 1
+R28
+Z101 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/4to1mux.vhd|
+Z102 !s107 C:/intelFPGA_lite/jass2.0/4to1mux.vhd|
+!i113 1
+R14
+R15
+Astruct
+R5
+R6
+DEx4 work 4 mux4 0 22 kzBY0EaXDz1]HFClDFTdU2
+l17
+L11
+VFXL5:hZ@:kXa2Lg>jSBL20
+!s100 _YV65aT_z8IT8B[`Z09Ah0
+R9
+31
+R27
+!i10b 1
+R28
+R101
+R102
+!i113 1
+R14
+R15
+Emux8
+R17
+R3
+R4
+R5
+R6
+R0
+Z103 8C:/intelFPGA_lite/jass2.0/mux8.vhd
+Z104 FC:/intelFPGA_lite/jass2.0/mux8.vhd
+l0
+L6
+VOIQaQm2HzaWRI4Mc[OV2=0
+!s100 If[AdEWiZ0<@L^XS<T=Mi1
+R9
+31
+R20
+!i10b 1
+R21
+Z105 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/mux8.vhd|
+Z106 !s107 C:/intelFPGA_lite/jass2.0/mux8.vhd|
+!i113 1
+R14
+R15
+Astruct
+R3
+R4
+R5
+R6
+DEx4 work 4 mux8 0 22 OIQaQm2HzaWRI4Mc[OV2=0
+l26
+L12
+V0]DDfVemNWzQ6BHF:`Pja3
+!s100 L<:11Uk?Gbb5CHjd6ChbB3
+R9
+31
+R20
+!i10b 1
+R21
+R105
+R106
+!i113 1
+R14
+R15
+Emux8bit16
+R24
+R3
+R4
+R5
+R6
+R0
+Z107 8C:/intelFPGA_lite/jass2.0/16bit8to1mux.vhd
+Z108 FC:/intelFPGA_lite/jass2.0/16bit8to1mux.vhd
+l0
+L7
+V4bYOoA92jR06KcbEF>[NX1
+!s100 [SOfjaCDKCN8VhzFY^5T?2
+R9
+31
+R20
+!i10b 1
+R21
+Z109 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/16bit8to1mux.vhd|
+Z110 !s107 C:/intelFPGA_lite/jass2.0/16bit8to1mux.vhd|
+!i113 1
+R14
+R15
+Astruct
+R3
+R4
+R5
+R6
+DEx4 work 9 mux8bit16 0 22 4bYOoA92jR06KcbEF>[NX1
+l21
+L13
+Vcc?R_n7lIjCkN;dSo86c;0
+!s100 81HTL]U92W8C<ma?7=GlD3
+R9
+31
+R20
+!i10b 1
+R21
+R109
+R110
+!i113 1
+R14
+R15
+Enand_2
+R17
+R5
+R6
+R0
+R18
+R19
+l0
+L68
+V7Q=aZ>7Mzize[[IfQRQ;`2
+!s100 bRA[c>EJKJWNgCR8ghUC72
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 6 nand_2 0 22 7Q=aZ>7Mzize[[IfQRQ;`2
+l73
+L72
+V?4CWin9:[TT0?g`jLS0E12
+!s100 I_RPhB=oe82f_Rij[[8JF2
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Enor_2
+R17
+R5
+R6
+R0
+R18
+R19
+l0
+L90
+V3?]TGiHba`>]BD;kULm?^3
+!s100 edYUJ4gTm_U:i]N@4Q=Gg3
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 5 nor_2 0 22 3?]TGiHba`>]BD;kULm?^3
+l95
+L94
+VNFd;eVo`>0To8@;Oh4diC1
+!s100 ESBi5;Q?X6mLo`Q3JWZ4Q0
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Eor_2
+R17
+R5
+R6
+R0
+R18
+R19
+l0
+L79
+V>IC]i[S3fUX<m=i^H@9eA0
+!s100 Be23a45mg=gMiVXM<6Peg0
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 4 or_2 0 22 >IC]i[S3fUX<m=i^H@9eA0
+l84
+L83
+VATF[^b3mj8cbo9?98=TRF0
+!s100 8JcIMFHmJzkaC?5jW]DnS3
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Eregister16bit
+Z111 w1733249221
+R2
+R3
+R4
+R5
+R6
+R0
+Z112 8C:/intelFPGA_lite/jass2.0/register16bit.vhd
+Z113 FC:/intelFPGA_lite/jass2.0/register16bit.vhd
+l0
+L8
+V0C4TIFBT4VfOjdaOH>dRL2
+!s100 bolY;1<gKWThde13mQNX]3
+R9
+31
+R27
+!i10b 1
+R28
+Z114 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/register16bit.vhd|
+Z115 !s107 C:/intelFPGA_lite/jass2.0/register16bit.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R3
+R4
+R5
+R6
+R73
+l29
+L14
+V1KKeCeED<o[6NU:jMzWA01
+!s100 m20HnYRze8kP2d>U^0n1K2
+R9
+31
+R27
+!i10b 1
+R28
+R114
+R115
+!i113 1
+R14
+R15
+Eregister_file
+Z116 w1733299828
+R63
+R3
+R4
+R5
+R6
+R0
+Z117 8C:/intelFPGA_lite/jass2.0/RegisterFile.vhd
+Z118 FC:/intelFPGA_lite/jass2.0/RegisterFile.vhd
+l0
+L7
+VT9Ahb]A1PBM0lli1C2:n92
+!s100 z^0WA4AmFZP65jm6kMeoz1
+R9
+31
+R20
+!i10b 1
+R21
+Z119 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/RegisterFile.vhd|
+Z120 !s107 C:/intelFPGA_lite/jass2.0/RegisterFile.vhd|
+!i113 1
+R14
+R15
+Astruct
+R63
+R3
+R4
+R5
+R6
+R74
+l52
+L17
+V<UzNO]=GOF^6W<6h]8iGS3
+!s100 8W9bI`eN29Mh]O8gcjhRH3
+R9
+31
+R20
+!i10b 1
+R21
+R119
+R120
+!i113 1
+R14
+R15
+Eshift_eight
+Z121 w1733156127
+R2
+R5
+R6
+R0
+Z122 8C:/intelFPGA_lite/jass2.0/shift_eight.vhd
+Z123 FC:/intelFPGA_lite/jass2.0/shift_eight.vhd
+l0
+L6
+V4;Qc=`5WiJofSgAI15ASd0
+!s100 S_DG[>LD@PNA8P3[cgKFm3
+R9
+31
+R27
+!i10b 1
+R28
+Z124 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/shift_eight.vhd|
+Z125 !s107 C:/intelFPGA_lite/jass2.0/shift_eight.vhd|
+!i113 1
+R14
+R15
+Adesign
+R2
+R5
+R6
+R69
+l14
+L13
+VACYn8zF?oE]:g^FJTa?Mb2
+!s100 N^8cDVAM>04hJ_6VbChh]2
+R9
+31
+R27
+!i10b 1
+R28
+R124
+R125
+!i113 1
+R14
+R15
+Eshift_one
+R17
+R2
+R5
+R6
+R0
+Z126 8C:/intelFPGA_lite/jass2.0/shift_one.vhd
+Z127 FC:/intelFPGA_lite/jass2.0/shift_one.vhd
+l0
+L6
+VAf[k=iXK]U3AjNgZl21ZU2
+!s100 acZ85XR<07cOHO0Z_f<Lo1
+R9
+31
+R27
+!i10b 1
+R28
+Z128 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/shift_one.vhd|
+Z129 !s107 C:/intelFPGA_lite/jass2.0/shift_one.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+R70
+l15
+L13
+VbKkbL?Yhj73]<M575]cP:3
+!s100 eHBFOBN6O[ihD`<1Ci=gX0
+R9
+31
+R27
+!i10b 1
+R28
+R128
+R129
+!i113 1
+R14
+R15
+Esign_ext_nine
+R17
+R2
+R5
+R6
+R0
+Z130 8C:/intelFPGA_lite/jass2.0/sign_ext_nine.vhd
+Z131 FC:/intelFPGA_lite/jass2.0/sign_ext_nine.vhd
+l0
+L6
+VBBhDL0UM?T^R5kD38EAS:1
+!s100 SJJM;kEJOeH:jF@Ven61Y2
+R9
+31
+R27
+!i10b 1
+R28
+Z132 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/sign_ext_nine.vhd|
+Z133 !s107 C:/intelFPGA_lite/jass2.0/sign_ext_nine.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+R71
+l15
+L13
+VEh3FC1@X`]C[EA?R4`@LQ1
+!s100 ?3hT2Wze7Leo91LWeOZBk0
+R9
+31
+R27
+!i10b 1
+R28
+R132
+R133
+!i113 1
+R14
+R15
+Esign_ext_six
+R17
+R2
+R5
+R6
+R0
+Z134 8C:/intelFPGA_lite/jass2.0/sign_ext_six.vhd
+Z135 FC:/intelFPGA_lite/jass2.0/sign_ext_six.vhd
+l0
+L6
+Vj9zBzNRzY<Eg_jGNmbTPT1
+!s100 6F7dkP0Kj4AE?61<8cFQ92
+R9
+31
+R27
+!i10b 1
+R28
+Z136 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/sign_ext_six.vhd|
+Z137 !s107 C:/intelFPGA_lite/jass2.0/sign_ext_six.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+R72
+l15
+L13
+Vj=3O6>IHcAT;EX8;3hL171
+!s100 g2JWTZ:JYZCaJEmZ_DaYb1
+R9
+31
+R27
+!i10b 1
+R28
+R136
+R137
+!i113 1
+R14
+R15
+Esixteen_bit_full_adder
+R17
+R2
+R5
+R6
+R0
+Z138 8C:/intelFPGA_lite/jass2.0/sixteen_bit_full_adder.vhd
+Z139 FC:/intelFPGA_lite/jass2.0/sixteen_bit_full_adder.vhd
+l0
+L6
+V2k<J0<m`KQNI8RGYVzkD81
+!s100 IeOA;[e3lRQW6J74Y6On^2
+R9
+31
+R27
+!i10b 1
+R28
+Z140 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/sixteen_bit_full_adder.vhd|
+Z141 !s107 C:/intelFPGA_lite/jass2.0/sixteen_bit_full_adder.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 22 sixteen_bit_full_adder 0 22 2k<J0<m`KQNI8RGYVzkD81
+l21
+L14
+V04D?d16:<]FfJYld3ZMcb3
+!s100 801Y[`RbThf]ozcQmFlIZ1
+R9
+31
+R27
+!i10b 1
+R28
+R140
+R141
+!i113 1
+R14
+R15
+Etestbench
+Z142 w1733310079
+R63
+R5
+R6
+R0
+Z143 8C:/intelFPGA_lite/jass2.0/testbench.vhd
+Z144 FC:/intelFPGA_lite/jass2.0/testbench.vhd
+l0
+L7
+V>Q;=Je8aV9bAYT>Y19ibC2
+!s100 ako1ncH9<1i===`Ln37Z21
+R9
+31
+R10
+!i10b 1
+R11
+Z145 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/testbench.vhd|
+Z146 !s107 C:/intelFPGA_lite/jass2.0/testbench.vhd|
+!i113 1
+R14
+R15
+Adesign
+R75
+R63
+R5
+R6
+DEx4 work 9 testbench 0 22 >Q;=Je8aV9bAYT>Y19ibC2
+l20
+L10
+V6T:CDEga0SYk@P=kH>OR>1
+!s100 z5bCF61kAF[dDP[GNc63N2
+R9
+31
+R10
+!i10b 1
+R11
+R145
+R146
+!i113 1
+R14
+R15
+Exnor_2
+R17
+R5
+R6
+R0
+R18
+R19
+l0
+L113
+VYmZa`=[Sj]6Zh9_O7]F;L0
+!s100 SMA^OIVGhoiKW^3FaJ8oW3
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 6 xnor_2 0 22 YmZa`=[Sj]6Zh9_O7]F;L0
+l118
+L117
+VAJO?a^^jGBIX`G]K^jl@P2
+!s100 =aKk4IJ>H;6]KzcaGm^Mn0
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Exor_2
+R17
+R5
+R6
+R0
+R18
+R19
+l0
+L102
+VDUd5fH`?6?dZ[>AnHc54;2
+!s100 h::V4HH0c4?lKoYnW6M?E3
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Aequations
+R5
+R6
+DEx4 work 5 xor_2 0 22 DUd5fH`?6?dZ[>AnHc54;2
+l107
+L106
+VT`Lnd3[S1KOT?Q^d?zomG2
+!s100 85OK8@mo8d3=fmz<5BnRf2
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Ezero_flag
+Z147 w1733255590
+R2
+R5
+R6
+R0
+Z148 8C:/intelFPGA_lite/jass2.0/zero_flag.vhd
+Z149 FC:/intelFPGA_lite/jass2.0/zero_flag.vhd
+l0
+L6
+VVf4=jd3=]0;`WL0YVMPZR3
+!s100 Lc<`dQfcH;SfDEQIQdL1F1
+R9
+31
+R27
+!i10b 1
+R28
+Z150 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/zero_flag.vhd|
+Z151 !s107 C:/intelFPGA_lite/jass2.0/zero_flag.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 9 zero_flag 0 22 Vf4=jd3=]0;`WL0YVMPZR3
+l15
+L12
+VSA46cd`m2f>lQiMR_F<090
+!s100 g_`=32:?NQ<XS2iIhMm3<1
+R9
+31
+R27
+!i10b 1
+R28
+R150
+R151
+!i113 1
+R14
+R15
+Ezero_padding
+R17
+R2
+R5
+R6
+R0
+Z152 8C:/intelFPGA_lite/jass2.0/zero_padding.vhd
+Z153 FC:/intelFPGA_lite/jass2.0/zero_padding.vhd
+l0
+L6
+V60YIL=5SWXi27DH?Zn4aN3
+!s100 YUWbVoYI_Y<AcmM[HE1TN1
+R9
+31
+R27
+!i10b 1
+R28
+Z154 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/jass2.0/zero_padding.vhd|
+Z155 !s107 C:/intelFPGA_lite/jass2.0/zero_padding.vhd|
+!i113 1
+R14
+R15
+Astruct
+R2
+R5
+R6
+DEx4 work 12 zero_padding 0 22 60YIL=5SWXi27DH?Zn4aN3
+l15
+L13
+V;S8iX;izJY=ETDoF[[8W23
+!s100 [gDh;a:W5@_73CDKF]Vn50
+R9
+31
+R27
+!i10b 1
+R28
+R154
+R155
+!i113 1
+R14
+R15

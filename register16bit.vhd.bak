@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+library work;
+use work.Gates.all;
+
+entity register16bit is
+ port(Clk, Reset, En : in std_logic;
+ data_in: in std_logic_vector(15 downto 0);
+ data_out : out std_logic_vector(15 downto 0));
+ end entity;
+ 
+ architecture struct of register16bit is
+ 
+ component dff_reset is port(D,clock,reset:in std_logic; Q:out std_logic);
+end component dff_reset;
+
+signal clock : std_logic;
+
+begin
+inst: AND_2 port map(a=>Clk,b=>En,Y=>clock);
+reg_b : for i in 0 to 15 generate
+reg_dff : dff_reset port map(D=>data_in(i), clock=>clock, reset=>Reset, Q=>data_out(i)); -- at falling edge of clock
+end generate;
+
+end architecture;

@@ -1,0 +1,25 @@
+library ieee;
+library work;
+
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity testbench is
+end entity;
+
+architecture design of testbench is
+    signal input_clock: std_logic := '0';
+    signal output_signal: std_logic_vector(15 downto 0) := (others => '0');
+    signal fsm_output_signal: std_logic_vector(15 downto 0);
+begin
+    fsm_test: entity work.fsm port map(clock => input_clock, test_out => fsm_output_signal);
+    
+    clock_100Hz_process: process
+        begin
+            input_clock <= not input_clock;
+            wait 5 ms;
+        end process;
+
+
+
+end architecture;

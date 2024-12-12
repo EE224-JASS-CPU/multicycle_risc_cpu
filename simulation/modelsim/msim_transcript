@@ -1,0 +1,479 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do FSM_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/Gates.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/Gates.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package Gates
+# -- Compiling entity INVERTER
+# -- Compiling architecture Equations of INVERTER
+# -- Compiling entity AND_2
+# -- Compiling architecture Equations of AND_2
+# -- Compiling entity NAND_2
+# -- Compiling architecture Equations of NAND_2
+# -- Compiling entity OR_2
+# -- Compiling architecture Equations of OR_2
+# -- Compiling entity NOR_2
+# -- Compiling architecture Equations of NOR_2
+# -- Compiling entity XOR_2
+# -- Compiling architecture Equations of XOR_2
+# -- Compiling entity XNOR_2
+# -- Compiling architecture Equations of XNOR_2
+# -- Compiling entity HALF_ADDER
+# -- Compiling architecture Equations of HALF_ADDER
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/RegisterFile.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/RegisterFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_file
+# -- Compiling architecture struct of register_file
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/mux8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/mux8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mux8
+# -- Compiling architecture struct of mux8
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture behav of memory
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/Flipflop.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/Flipflop.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package Flipflops
+# -- Compiling entity dff_set
+# -- Compiling architecture behav of dff_set
+# -- Compiling entity dff_reset
+# -- Compiling architecture behav of dff_reset
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/demux8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/demux8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity demux8
+# -- Compiling architecture struct of demux8
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/demux4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/demux4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity demux4
+# -- Compiling architecture struct of demux4
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/16bit8to1mux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/16bit8to1mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mux8bit16
+# -- Compiling architecture struct of mux8bit16
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/16bit1to8demux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:35 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/16bit1to8demux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity demux8bit16
+# -- Compiling architecture struct of demux8bit16
+# End time: 16:32:35 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/4to1mux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/4to1mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4
+# -- Compiling architecture struct of mux4
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/16bit2x1mux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/16bit2x1mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mux2bit16
+# -- Compiling architecture struct of mux2bit16
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/zero_padding.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/zero_padding.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity zero_padding
+# -- Compiling architecture struct of zero_padding
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/zero_flag.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/zero_flag.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity zero_flag
+# -- Compiling architecture struct of zero_flag
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/sixteen_bit_full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/sixteen_bit_full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity sixteen_bit_full_adder
+# -- Compiling architecture struct of sixteen_bit_full_adder
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/sign_ext_six.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/sign_ext_six.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity sign_ext_six
+# -- Compiling architecture struct of sign_ext_six
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/sign_ext_nine.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/sign_ext_nine.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity sign_ext_nine
+# -- Compiling architecture struct of sign_ext_nine
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/shift_one.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/shift_one.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity shift_one
+# -- Compiling architecture struct of shift_one
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/shift_eight.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/shift_eight.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity shift_eight
+# -- Compiling architecture design of shift_eight
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/register16bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/register16bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package Gates
+# -- Compiling entity register16bit
+# -- Compiling architecture struct of register16bit
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/multiplier.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity multiplier
+# -- Compiling architecture struct of multiplier
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity full_adder
+# -- Compiling architecture struct of full_adder
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/demux2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/demux2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package Gates
+# -- Compiling entity demux2
+# -- Compiling architecture struct of demux2
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/bitwise_OR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/bitwise_OR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity bitwise_OR
+# -- Compiling architecture struct of bitwise_OR
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/bitwise_IMP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/bitwise_IMP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity bitwise_IMP
+# -- Compiling architecture struct of bitwise_IMP
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/bitwise_AND.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:36 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/bitwise_AND.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity bitwise_AND
+# -- Compiling architecture struct of bitwise_AND
+# End time: 16:32:36 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:37 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package Gates
+# -- Compiling entity alu
+# -- Compiling architecture struct of alu
+# End time: 16:32:37 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/2to1mux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:37 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/2to1mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity mux2
+# -- Compiling architecture struct of mux2
+# End time: 16:32:37 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/fsm.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:37 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm
+# -- Compiling architecture design of fsm
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package Gates
+# -- Loading entity alu
+# -- Loading entity register_file
+# -- Loading entity register16bit
+# -- Loading entity sign_ext_six
+# -- Loading entity sign_ext_nine
+# -- Loading entity shift_one
+# -- Loading entity shift_eight
+# -- Loading entity memory
+# End time: 16:32:37 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/intelFPGA_lite/jass2.0/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:32:37 on Dec 04,2024
+# vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/jass2.0/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture design of testbench
+# -- Loading entity fsm
+# ** Warning: C:/intelFPGA_lite/jass2.0/testbench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:32:37 on Dec 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 16:32:37 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench(design)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.gates
+# Loading work.fsm(design)
+# Loading work.alu(struct)
+# Loading work.sixteen_bit_full_adder(struct)
+# Loading work.xor_2(equations)
+# Loading work.full_adder(struct)
+# Loading work.nand_2(equations)
+# Loading work.bitwise_or(struct)
+# Loading work.or_2(equations)
+# Loading work.bitwise_and(struct)
+# Loading work.and_2(equations)
+# Loading work.bitwise_imp(struct)
+# Loading work.inverter(equations)
+# Loading work.multiplier(struct)
+# Loading work.zero_padding(struct)
+# Loading work.shift_one(struct)
+# Loading work.mux8bit16(struct)
+# Loading work.mux8(struct)
+# Loading work.mux4(struct)
+# Loading work.mux2(struct)
+# Loading work.zero_flag(struct)
+# Loading work.register_file(struct)
+# Loading work.register16bit(struct)
+# Loading work.mux2bit16(struct)
+# Loading work.dff_reset(behav)
+# Loading work.demux8(struct)
+# Loading work.demux2(struct)
+# Loading work.demux4(struct)
+# Loading work.demux8bit16(struct)
+# Loading work.sign_ext_six(struct)
+# Loading work.sign_ext_nine(struct)
+# Loading work.shift_eight(design)
+# Loading work.memory(behav)
+# ** Warning: Design size of 53490 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 sec
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/fsm_test/memory_inst
+# ** Note: PC_DO: 0
+#    Time: 30 ms  Iteration: 2  Instance: /testbench/fsm_test
+# ** Note: PC_DO: 2
+#    Time: 110 ms  Iteration: 2  Instance: /testbench/fsm_test
+# ** Note: PC_DO: 4
+#    Time: 280 ms  Iteration: 2  Instance: /testbench/fsm_test
+# ** Note: PC_DO: 6
+#    Time: 390 ms  Iteration: 2  Instance: /testbench/fsm_test
+# ** Note: PC_DO: 8
+#    Time: 500 ms  Iteration: 2  Instance: /testbench/fsm_test
+# ** Note: PC_DO: 10
+#    Time: 610 ms  Iteration: 2  Instance: /testbench/fsm_test
+# ** Note: PC_DO: 12
+#    Time: 720 ms  Iteration: 2  Instance: /testbench/fsm_test
+# ** Note: PC_DO: 14
+#    Time: 830 ms  Iteration: 2  Instance: /testbench/fsm_test
+# ** Note: PC_DO: 16
+#    Time: 940 ms  Iteration: 2  Instance: /testbench/fsm_test
+# End time: 16:34:04 on Dec 04,2024, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 2
